@@ -1,0 +1,29 @@
+{
+	"name": "Wedding planning",
+	"dockerComposeFile": "./docker-compose.yml",
+	"service": "wedding_planning",
+	"workspaceFolder": "/workspace",
+	"postCreateCommand": "bash .devcontainer/post-create-command.sh",
+	"customizations": {
+		"vscode": {
+			"settings": {
+			},
+			"extensions": [
+				"usernamehw.errorlens",
+                "ms-azuretools.vscode-docker",
+                "eamodio.gitlens",
+                "GitHub.vscode-pull-request-github",
+				"hoovercj.vscode-power-mode",
+				"pkief.material-icon-theme",
+				"codeium.codeium"
+			]
+		}
+	},
+	"forwardPorts": [3000],
+	"portsAttributes": {
+		"3000": {
+			"label": "Wedding planning",
+			"protocol": "http"
+		}
+	}
+}
