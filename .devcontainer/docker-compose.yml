@@ -1,0 +1,8 @@
+services:
+  wedding_planning:
+    build:
+      context: ../
+      dockerfile: .devcontainer/Dockerfile
+    command: sleep infinity 
+    volumes:
+      - ../:/workspace:cached
