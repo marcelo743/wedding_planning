@@ -3,6 +3,9 @@ services:
     build:
       context: ../
       dockerfile: .devcontainer/Dockerfile
-    command: sleep infinity 
+    working_dir: /workspace 
+    command: sleep infinity
+    environment:
+      WATCHPACK_POLLING: "true"
     volumes:
-      - ../:/workspace:cached
+      - ../:/workspace
