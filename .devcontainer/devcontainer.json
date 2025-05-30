@@ -10,12 +10,13 @@
 			},
 			"extensions": [
 				"usernamehw.errorlens",
-                "ms-azuretools.vscode-docker",
-                "eamodio.gitlens",
-                "GitHub.vscode-pull-request-github",
+				"ms-azuretools.vscode-docker",
+				"eamodio.gitlens",
+				"GitHub.vscode-pull-request-github",
 				"hoovercj.vscode-power-mode",
 				"pkief.material-icon-theme",
-				"codeium.codeium"
+				"codeium.codeium",
+				"ms-vscode.js-debug-nightly"
 			]
 		}
 	},
