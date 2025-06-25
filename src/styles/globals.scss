@@ -1,3 +1,5 @@
+@use "./vendor/vendor" as vars;
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -14,6 +16,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  color: vars.$white;
 }
 
 body {
