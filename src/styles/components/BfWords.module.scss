@@ -1,0 +1,22 @@
+@use "../base/variables" as vars;
+
+.BfWords {
+    font-family: vars.$primary-font;
+    padding: 56px 70px 45px 70px;
+    letter-spacing: 1px;
+    color: vars.$white;
+    font-size: 19px;
+    text-align: center;
+    background-color: vars.$green;
+}
+
+.Text {
+    max-width: 355px;
+    width: 100%;
+    margin: 0px auto 30px auto;
+    line-height: 2;
+}
+
+.Icon {
+    font-size: 30px;
+}
