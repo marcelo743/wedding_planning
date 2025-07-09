@@ -1,0 +1,65 @@
+@use "../base/variables" as vars;
+
+.Banner {
+    background-image: url("../../../public/header-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: vars.$primary-font;
+    padding-top: 183px;
+    padding-bottom: 186px;
+
+    gap: 45px;
+    text-align: center;
+}
+
+.Names {
+    font-family: vars.$secondary-font;
+    font-size: 90px;
+    font-weight: normal;
+    text-align: center;
+    display: block;
+}
+
+.Title {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 5px;
+    color: vars.$black;
+}
+
+.IconWrap {
+    background-color: vars.$gray;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    align-content: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.Icon {
+    color: vars.$white;
+    font-size: 20px;
+    cursor: pointer;
+
+    &:hover {
+        color: vars.$black;
+    }
+}
+
+.Scroll {
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
