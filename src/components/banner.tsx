@@ -10,9 +10,9 @@ const Banner = () => {
                 <span className={styles.Names}>Katherine</span>    
                 <span className={styles.Names}>Y</span>    
                 <span className={styles.Names}>Marcelo</span>
-                <span className={styles.Title}>15 de noviembre 2025</span>
+                <span className={`${styles.Date}`}>15 de noviembre 2025</span>
             </div>
-            <div>
+            <div className='d-flex flex-column align-items-center justify-content-center'>
                 <span className={styles.IconWrap}>
                     <FontAwesomeIcon icon={faAnglesDown} className={styles.Icon}/>
                 </span>

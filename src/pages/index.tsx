@@ -1,5 +1,6 @@
 import Banner from "@/components/banner";
 import BfWords from "@/components/bfWords";
+import Counter from "@/components/counter";
 import ParentalBlessing from "@/components/parentalBlessing";
 import Styles from "@/styles/components/Home.module.scss";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Banner />
       <BfWords />
       <ParentalBlessing />
+      <Counter targetDate="2025-11-15"/>
     </div>
   );
 }

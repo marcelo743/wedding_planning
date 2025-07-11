@@ -13,6 +13,9 @@
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "bootstrap": "^5.3.7",
+    "dayjs": "^1.11.13",
+    "dayjs-plugin-duration": "^0.0.1-security",
+    "dayjs-plugin-utc": "^0.1.2",
     "next": "15.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

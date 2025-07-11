@@ -1,7 +1,11 @@
 @use "../base/variables" as vars;
 
 .ParentalBlessing {
-    padding: 70px 2px;
+    padding: 50px 15px;
+
+    @media (min-width: 576px) {
+        padding: 70px 2px;
+    }
 }
 
 .Wrap {
@@ -14,21 +18,31 @@
     border-color: #B4A180;
     text-align: center;
     padding-top: 44px;
+
+    padding: 50px 20px;
 }
 
 .Text {
     font-family: vars.$secondary-font;
-    font-size: 45px;
+    font-size: 30px;
     color: vars.$black;
     display: block;
     width: 100%;
     word-wrap: break-word;
     max-width: 370px;
+
+    @media (min-width: 576px) {
+        font-size: 45px;
+    }
 }
 
 .ParentName {
     font-family: vars.$primary-font;
-    font-size: 19px;
+    font-size: 15px;
     color: vars.$black;
     display: block;
+
+    @media (min-width: 576px) {
+        font-size: 19px;
+    }
 }
