@@ -15,51 +15,88 @@
     font-family: vars.$primary-font;
     padding-top: 183px;
     padding-bottom: 186px;
+    padding-top: 145px;
+    padding-bottom: 116px;
 
-    gap: 45px;
     text-align: center;
+
+    @media (min-width: 576px) {
+        padding-top: 183px;
+        padding-bottom: 186px;
+    }
 }
 
 .Names {
     font-family: vars.$secondary-font;
-    font-size: 90px;
+    font-size: 72px;
     font-weight: normal;
     text-align: center;
     display: block;
+
+    @media (min-width: 576px) {
+        font-size: 90px;
+    }
 }
 
 .Title {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 400;
     text-transform: uppercase;
     font-style: normal;
     letter-spacing: 5px;
     color: vars.$black;
+    display: block;
+    margin-bottom: 10px;
+
+    @media (min-width: 576px) {
+        font-size: 24px;
+    }
+}
+
+.Date {
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: block;
+
+    @media (min-width: 576px) {
+        font-size: 24px;
+    }
 }
 
 .IconWrap {
     background-color: vars.$gray;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     display: block;
     text-align: center;
     align-content: center;
     border-radius: 50%;
     margin-bottom: 10px;
+
+    @media (min-width: 576px) {
+        width: 50px;
+        height: 50px;
+    }
 }
 
 .Icon {
     color: vars.$white;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
+    display: block;
+    margin: 0 auto;
 
     &:hover {
         color: vars.$black;
+    }
+
+    @media (min-width: 576px) {
+        font-size: 20px;
     }
 }
 
 .Scroll {
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 1px;
 }
