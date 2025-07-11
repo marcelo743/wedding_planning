@@ -1,0 +1,42 @@
+@use "../base/variables" as vars;
+
+.Countdown {
+    background-image: url("../../../public/countdown-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+
+    padding: 157px 0px;
+}
+
+.Title {
+    font-family: vars.$secondary-font;
+    font-size: 40px;
+    line-height: 1em;
+    letter-spacing: 0px;
+
+    @media (min-width: 576px) {
+        font-size: 50px;
+    }
+}
+
+.Time {
+    font-size: 35px;
+    display: block;
+}
+
+.Timer {
+    font-family: vars.$primary-font;
+    font-size: 19px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.TimerWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 280px;
+}
